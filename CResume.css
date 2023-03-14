@@ -1,0 +1,122 @@
+
+
+
+
+
+.bk1{
+    background-color: rgb(120, 118, 118);
+
+    position: relative;
+    
+    
+    margin: 50px auto;
+    width: 850px;
+    height: max-content;
+    background-color: lightgray;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(202, 209, 209, 0.54);
+}
+
+.main{
+    background-color: rgb(155, 156, 156);
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+.top{
+    background-color: rgb(199, 202, 205);
+
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    padding: 10px;
+}
+
+
+.profileimg{
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-radius: 100px;
+
+    margin-left;
+}
+
+.profiletext{
+    
+    position: relative;
+    padding: 30px;
+
+}
+
+.profiletext span{
+    position: relative;
+    font-size: 1em;
+    top: 5px;
+}
+
+
+.left{
+    position: relative;
+
+    background-color: antiquewhite;
+    float: left;
+    
+    min-height: 500px;
+    min-width: fit-content;
+
+    padding: 20px;
+}
+
+.contact h4{
+    border-left: 10px solid black;
+
+    padding: 10px;
+    margin-top: 25px;
+    margin: 10px;
+
+}
+
+.contact li{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.interest{
+    align-items: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.links{
+    align-items: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.right{
+   
+    float: left;
+    fill: nones;
+    padding: 20px;
+}
+
+.righthead{
+    text-decoration: solid;
+}
